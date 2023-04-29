@@ -11,12 +11,16 @@ html, body {
 }
 
 .Ads__header {
-    background: turquoise ;
+    background:url(https://cdn.nur.kz/images/1120x630/1f4cf0327a6aa542.jpeg);
+    background-size: 100%;
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px #f1a9a9 solid ;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .Header__title {
@@ -31,9 +35,7 @@ html, body {
     cursor: pointer;
     font-size: 30px;
     font-weight: 700;
-    margin-left: 850px;
     margin-top: 50px;
-    margin-right: 680px;
     padding: 35px 40px;
     padding-top: 25px;
     padding-bottom: 25px;
